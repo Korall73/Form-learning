@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Заявка</title>
+</head>
+<body>
+    <form action="../index.php" method="post">
+    <div class="form">
+        <div class="back">
+            <div class="txt">
+                <p>Заявка</p>
+            </div>
+            <div class="input">
+                <input type="text" name="login" placeholder="Логин" maxlength="45" required>
+            </div>
+            <div class="input">
+                <input type="password" name="password" placeholder="Пароль" maxlength="16" required>
+            </div>
+            <div class="input">
+                <input type="text" name="f_name" placeholder="Имя" maxlenght="30" required>
+            </div>
+            <div class="input">
+                <input type="text" name="l_name" placeholder="Фамилия" maxlength="30" required>
+            </div>
+            <div class="input">
+                <input type="date" name="age" required>
+            </div>
+            <div class="btn">
+                <input type="reset" value="Очистить">
+                <input type="submit" value="Войти">
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
